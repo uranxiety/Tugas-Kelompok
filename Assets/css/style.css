@@ -102,7 +102,7 @@ nav .name {
 /*about section*/
 #about {
  background-color: var(--color-primary);
- padding: 60px 30px;
+ padding: 50px 30px;
  display: flex;
  flex-direction: column;
  gap: 40px;
@@ -110,11 +110,12 @@ nav .name {
 .info-about h1 {
  font-size: 32px;
  text-align: center;
- margin-bottom: 12px;
+ margin-bottom: 13px;
 }
 .info-about p {
  font-size: 16px;
  text-align: center;
+ margin-bottom: 13px;
 }
 .content-about {
  display: flex;
@@ -150,10 +151,26 @@ nav .name {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
 .timeline-container {
-    width: 45%;
+    width: 40%;
+}
+
+.content-about {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.timeline-item {
+    padding-left: 25px;
+    margin-bottom: 35px;
+}
+
+.timeline {
+    margin-left: 15px;
 }
